@@ -1,4 +1,5 @@
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 
 int Suma (int x, int y)
 {
@@ -8,15 +9,15 @@ int Suma (int x, int y)
 
 int main()
 {
-    cout << "¡Estoy en main()!\n";
+    cout << "Â¡Estoy en main()!\n";
     int a, b, c;
-    cout << "Escriba dos números: ";
+    cout << "Escriba dos nÃºmeros: ";
     cin >> a;
     cin >> b;
     cout << "\nLlamando a Suma()\n";
     c=Suma(a,b);
     cout << "\nDe regreso en main().\n";
-    cout << "c contiene el número " << c;
+    cout << "c contiene el nÃºmero " << c;
     cout << "\nSaliendo...\n\n";
     return 0;
 }

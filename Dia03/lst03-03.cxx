@@ -1,6 +1,7 @@
  // *****************
  // Muestra de la palabra reservada typedef
- #include <iostream.h>
+ #include <iostream>
+ using namespace std;
 
  typedef unsigned short int USHORT; //typedef definido
 

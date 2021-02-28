@@ -1,13 +1,14 @@
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 
-// función FuncionDeMuestra
-// imprime un mensaje útil
+// funciï¿½n FuncionDeMuestra
+// imprime un mensaje ï¿½til
 void FuncionDeMuestra()
 {
      cout << "Estamos dentro de FuncionDeMuestra\n";
 }
 
-// función main - imprime un mensaje y luego
+// funciï¿½n main - imprime un mensaje y luego
 // llama a FuncionDeMuestra, luego imprime
 // un segundo mensaje.
 int main()

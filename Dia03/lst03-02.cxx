@@ -1,5 +1,6 @@
 // Muestra de las variables
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -7,7 +8,7 @@ int main()
 	Longitud = 10;
 
 	// crear una variable de tipo unsigned short e inicializarla con el 
-	// resultado de la multiplicación de Ancho por Longitud
+	// resultado de la multiplicaciï¿½n de Ancho por Longitud
 	unsigned short int Area = (Ancho * Longitud);
 
 	cout << "Ancho:" << Ancho << "\n";

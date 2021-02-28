@@ -1,4 +1,6 @@
- #include <iostream.h>
+ #include <iostream>
+ using namespace std;
+
  int main()
  {
 	 const int Domingo = 0;
@@ -10,13 +12,13 @@
 	 const int Sabado = 6;
 
 	 int opcion;
-	 cout << "Escriba un día (0-6): ";
+	 cout << "Escriba un dÃ­a (0-6): ";
 	 cin >> opcion;
 
 	 if (opcion == Domingo || opcion == Sabado)
-		 cout << "\n¡Ya se le agotaron los fines de semana!\n";
+		 cout << "\nÂ¡Ya se le agotaron los fines de semana!\n";
 	 else
-		 cout << "\nEstá bien, incluiré un día de descanso.\n";
+		 cout << "\nEstÃ¡ bien, incluirÃ¡ un dÃ­a de descanso.\n";
 
 	 return 0;
  }
